@@ -1,4 +1,8 @@
 var animal = 'dog'
+<<<<<<< HEAD
+=======
+var yourAnimal = 'cat'
+>>>>>>> c0d01178944b64759b7cb109716b084fbf0ac906
 function myAnimal() {
   return animal
 }
@@ -7,8 +11,12 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
+<<<<<<< HEAD
   animal = 'cat';
   return animal
+=======
+  return yourAnimal
+>>>>>>> c0d01178944b64759b7cb109716b084fbf0ac906
 }
 
 function add2(n) {
